@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+
+head, body, footer {
+    background-color:rgb(195, 184, 199);
+}
+
+*{
+    margin: 12px;
+    padding: 0%;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(106, 91, 121);
+    border-radius: 2%;
+    padding-inline-start: 10px;  
+}
+
+main {
+    display:flex;
+}
+
+section.iconos-redes {
+    display: flex;
+}
+h1 {
+    font-family:Georgia;
+    color:rgb(195, 184, 199);
+    display: flex;
+ }
+
+ h3 {
+    display: flex;
+    font-family: Georgia;
+    color: rgb(58, 2, 63);
+ }
+
+section.presentacion  {
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    background-color: rgb(106, 91, 121);
+    border-radius: 2%;
+}
+
+img { 
+    display: flex;
+    border-radius: 36%;
+    align-content: center;
+    flex-direction: column;
+    content: none;
+    flex-wrap: nowrap;
+    
+}
+
+article.texto {
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: column;
+    contain: content;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    
+}
+
+h4 {
+    flex-direction: row;
+    display: flex;
+    font-family:Georgia;
+    color:rgb(195, 184, 199);
+    align-content: flex-start;
+}
+
+ul.sobrenombres {
+    display: flex;
+    flex-direction:row;
+    color: rgb(195, 184, 199);
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+    list-style-type: circle;
+
+}
+
+h5 {
+    font-family: Georgia;
+    color: rgb(58, 2, 63);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+
+li {
+    
+    display: list-item;
+    font-family: Georgia;
+    color: rgb(58, 2, 63);
+    margin: 0px;
+    margin-right: 10px;
+    font-size:medium;
+}
+
+section.estudios {
+    container:inherit;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:stretch;
+    font-family: Georgia;
+    background-color: rgb(106, 91, 121);
+    border-radius: 2%;
+    padding-inline-end: 30px;
+    padding-inline-start: 30px;
+    padding-top: 10px;
+}
+
+ol {
+    display: flex;
+    list-style: upper-alpha;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0%;
+
+}
+
+
+article.experiencia {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    list-style-type:none;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+}
+
